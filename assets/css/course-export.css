@@ -1,0 +1,41 @@
+.export-container {
+    display:flex;
+}
+
+.col {
+    width: 100%;
+    flex-direction: column;
+    padding:20px;
+}
+
+.export-container .hide {
+    display:none;
+}
+
+.confirmation-message, .processing-message, .nousers-message, .batch-status-list li {
+    background-color: #effbff;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border: solid 1px #00ffdc;
+}
+
+.success-message {
+    background-color: #85ff85;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border: solid 1px #85ff85;
+}
+
+.success-message a {
+    color: #747474;
+    text-decoration: none;
+}
+
+#confirm-yes, #confirm-no {
+    text-decoration:underline;
+    cursor:pointer;
+}
